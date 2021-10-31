@@ -13,6 +13,16 @@ Uma api rest para servir dados de contatos, reuniões e usuários.
 
 Utilize o .env.example para gerar o .env para o seu ambiente.
 
+```
+cp .env.example .env
+```
+
+Gere uma chave única para a aplicação
+
+```
+adonis key:generate
+```
+
 ## Dependências
 
 Instale as dependências do projeto
