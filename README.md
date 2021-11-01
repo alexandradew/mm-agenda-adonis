@@ -59,11 +59,11 @@ adonis serve
 
 | Método | Url               | Responsabilidade         | Dados (R = Required) / (U = Unique)                                   | Requer autenticação |
 | ------ | ----------------- | ------------------------ | --------------------------------------------------------------------- | ------------------- |
-| GET    | /contact          | Mostra todos os contatos | nenhum                                                                | sim                 |
-| POST   | /contact          | Registra um novo contato | (name / String /R ), (email / String /R U), (cellphone / String /R U) | sim                 |
-| GET    | /contact/show/:id | Mostra um único contato  | nenhum                                                                | sim                 |
-| PATCH  | /contact/:id      | Atualiza um contato      | (name / String), (email / String), (cellphone / String)               | sim                 |
-| DELETE | /contact/:id      | Deleta um contato        | nenhum                                                                | sim                 |
+| GET    | /contacts          | Mostra todos os contatos | nenhum                                                                | sim                 |
+| POST   | /contacts          | Registra um novo contato | (name / String /R ), (email / String /R U), (cellphone / String /R U) | sim                 |
+| GET    | /contacts/show/:id | Mostra um único contato  | nenhum                                                                | sim                 |
+| PATCH  | /contacts/:id      | Atualiza um contato      | (name / String), (email / String), (cellphone / String)               | sim                 |
+| DELETE | /contacts/:id      | Deleta um contato        | nenhum                                                                | sim                 |
 
 ### Meetings
 
